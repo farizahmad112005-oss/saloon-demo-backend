@@ -1,0 +1,35 @@
+{
+  "name": "saloon-booking-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "seed": "node scripts/seed.js",
+    "db:init": "node scripts/initDb.js",
+    "db:migrate-slots": "node scripts/migrateSlotBlocks.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1106.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dayjs": "^1.11.21",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.6.2",
+    "express-validator": "^7.3.2",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "luxon": "^3.7.2",
+    "morgan": "^1.11.0",
+    "multer": "^2.2.0",
+    "mysql2": "^3.23.2",
+    "nodemailer": "^10.0.0",
+    "socket.io": "^4.8.3",
+    "uuid": "^14.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D8EAF5"/>
+      <stop offset="100%" stop-color="#5B8FC4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="70%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#bg)"/>
+  <rect width="900" height="700" fill="url(#glow)"/>
+  <circle cx="720" cy="160" r="140" fill="#ffffff" fill-opacity="0.18"/>
+  <circle cx="160" cy="560" r="180" fill="#2A1C20" fill-opacity="0.10"/>
+  <ellipse cx="450" cy="320" rx="160" ry="210" fill="#ffffff" fill-opacity="0.12"/>
+  <text x="60" y="620" font-family="Georgia, serif" font-size="42" fill="#6B2D3C" opacity="0.9">Hydration</text>
+  <text x="60" y="660" font-family="Arial, sans-serif" font-size="18" fill="#6B2D3C" opacity="0.55">Luxe Belle Salon</text>
+</svg>

@@ -1,0 +1,9 @@
+﻿node_modules/
+.env
+*.log
+.DS_Store
+uploads/*
+!uploads/.gitkeep
+!uploads/placeholders/
+database/*_export.sql
+database/saloondb_full_export.sql
